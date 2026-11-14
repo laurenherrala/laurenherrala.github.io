@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lauren Herrala</title>
+  <link rel="preload" href="assets/fonts/playfair-display-regular.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="assets/fonts/playfair-display-bold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script src="slideshow.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <h1><a href="./" aria-current="page">Lauren Herrala</a></h1>
+    <nav aria-label="Main navigation">
+      <a href="work.html">Work</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main class="home">
+    <div class="slideshow" role="region" aria-roledescription="carousel" aria-label="Artwork by Lauren Herrala">
+      <button class="previous" type="button" aria-label="Previous image" aria-controls="home-image">‹</button>
+      <div class="slide">
+        <img id="home-image" src="assets/home/1.jpg" alt="Artwork by Lauren Herrala, image 1 of 4" fetchpriority="high">
+      </div>
+      <button class="next" type="button" aria-label="Next image" aria-controls="home-image">›</button>
+      <p class="visually-hidden" id="slide-status" role="status" aria-atomic="true">Image 1 of 4</p>
+    </div>
+  </main>
+</body>
+</html>
