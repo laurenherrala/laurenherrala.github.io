@@ -9,6 +9,11 @@ A plain HTML, CSS, and JavaScript portfolio. No build step or dependencies.
 - `about.html`: Artist biography and statement.
 - `contact.html`: Email and Instagram links.
 
+Public page URLs are `/`, `/work`, `/about`, and `/contact`. GitHub Pages
+serves these directly from the HTML files. Navigation uses these clean URLs;
+`clean-urls.js` redirects old `.html` links while preserving query strings and
+page anchors. Each page also declares its clean canonical URL.
+
 The web images are in `assets/home/` and `assets/work/`. Desktop originals are unchanged. Playfair Display is bundled in `assets/fonts/` with its license.
 
 ## Preview
